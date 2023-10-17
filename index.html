@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list App |</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./slack_loader.html" />
+  </head>
+
+  <body>
+    <!-- Page loading -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Page loading End-->
+    <!-- Main Section -->
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do List <img src="./images/icon.png" alt="*" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your text" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- Creating this with js  -->
+          <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+           <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <!-- Main Section End -->
+    <!-- Adding video from YT to make page load takes times -->
+    <div class="videos">
+      <div class="video-wrapper">
+        <div class="box">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/0WQgceERyGo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+
+        <div class="box">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/u1ZJpqnvWiU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="box">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Jbl_7LQudeI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
